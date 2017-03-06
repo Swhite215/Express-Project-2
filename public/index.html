@@ -4,9 +4,13 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body ng-app="myModule">
     <h1>Basic</h1>
+    <div ng-controller="getControl">
+      <p ng-repeat ="lyric in array"> {{ lyric }}</p>
+    </div>
 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
     <script type="text/javascript" src="module.js"></script>
     <script type="text/javascript" src="controller.js"></script>
   </body>
