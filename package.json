@@ -1,0 +1,15 @@
+{
+  "name": "expressproject2",
+  "version": "0.0.1",
+  "description": "Express Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Spencer White",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
